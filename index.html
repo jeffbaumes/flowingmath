@@ -40,12 +40,11 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#">flowingmath</a>
+                    <a class="brand" href="#" onclick="go(event, 'home');">flowingmath</a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li id="numbers-intro"><a href="#lesson/numbers-intro" onclick="go(event, 'lesson/numbers-intro');">numbers</a></li>
+                            <li id="2"><a href="#lesson/2" onclick="go(event, 'lesson/2');">2</a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div>
@@ -57,7 +56,7 @@
             <!-- Main hero unit for a primary marketing message or call to action -->
             <div id="intro" class="hero-unit">
                 <h1>flowingmath</h1>
-                <p>Math for you.</p>
+                <p>An educational site devoted to the simplicity and accessibility of math.</p>
                 <p><a class="btn btn-primary btn-large">Get started &raquo;</a></p>
             </div>
             
@@ -78,7 +77,10 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="js/vendor/d3.v3.min.js"></script>
+        <script src="js/vendor/json2.js"></script>
+        <script src="js/vendor/underscore-min.js"></script>
+        <script src="js/vendor/backbone-min.js"></script>
 
         <script src="js/main.js"></script>
 
