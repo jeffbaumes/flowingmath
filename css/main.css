@@ -5,9 +5,22 @@
    ========================================================================== */
 
 
+.boxes rect {
+    fill: steelblue;
+    stroke: none;
+}
 
+.words {
+    font-size: 50px;
+    text-anchor: middle;
+    alignment-baseline: central;
+}
 
-
+.numeral {
+    font-size: 50px;
+    text-anchor: middle;
+    alignment-baseline: central;
+}
 
 
 
